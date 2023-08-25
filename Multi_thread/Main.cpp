@@ -3,6 +3,7 @@
 #include "PromiseFuture_Test.hpp"
 #include "Async_Test.hpp"
 #include "ThreadPool_Test.hpp"
+#include "ThreadPool_FPS_Test.hpp"
 
 int main()
 {
@@ -14,7 +15,9 @@ int main()
 
 	//Async_Test();
 
-	ThreadPool_Test();
+	//ThreadPool_Test();
+
+	Execute_FPS_Test();
 
 	return 0;
 }

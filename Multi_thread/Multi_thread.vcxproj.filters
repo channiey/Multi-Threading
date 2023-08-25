@@ -19,6 +19,9 @@
     <Filter Include="Source Files\Default">
       <UniqueIdentifier>{562a9711-6c96-490d-900e-c50a6a25fceb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Thread\Pool">
+      <UniqueIdentifier>{df9f0cf8-7957-487d-907c-9abf40e50e3c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Mutex_Test.hpp">
@@ -39,10 +42,19 @@
     <ClInclude Include="ThreadPool_Test.hpp">
       <Filter>Source Files\Thread</Filter>
     </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Source Files\Thread\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool_FPS_Test.hpp">
+      <Filter>Source Files\Thread</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>Source Files\Thread\Pool</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
